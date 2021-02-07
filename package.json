@@ -1,0 +1,15 @@
+{
+  "name": "csv2json",
+  "version": "1.0.0",
+  "description": "Converts the contents of a CSV file to JSON.",
+  "main": "./build/src/csv2json.js",
+  "scripts": {
+    "test": "node ./test/test.js",
+    "build": "tsc"
+  },
+  "author": "Snorkungen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.25"
+  }
+}
